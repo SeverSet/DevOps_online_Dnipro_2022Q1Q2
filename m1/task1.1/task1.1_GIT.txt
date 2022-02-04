@@ -1,0 +1,15 @@
+205c8d9 HEAD@{0}: merge develop: Fast-forward
+9253aa6 HEAD@{1}: checkout: moving from develop to main
+205c8d9 HEAD@{2}: commit (merge): Resolved conflict
+fb33f1d HEAD@{3}: merge images: Fast-forward
+e0ed855 HEAD@{4}: checkout: moving from styles to develop
+1c113fc HEAD@{5}: commit: Added path to css file
+d36fb7e HEAD@{6}: commit: Created styles folder and css file inside
+e0ed855 HEAD@{7}: checkout: moving from develop to styles
+e0ed855 HEAD@{8}: checkout: moving from images to develop
+fb33f1d HEAD@{9}: commit: Added path to image contetn
+4408a9c HEAD@{10}: commit: Created images folder and some content inside
+e0ed855 HEAD@{11}: checkout: moving from develop to images
+e0ed855 HEAD@{12}: commit: Created index.html
+9253aa6 HEAD@{13}: checkout: moving from main to develop
+9253aa6 HEAD@{14}: commit (initial): Created readme file
