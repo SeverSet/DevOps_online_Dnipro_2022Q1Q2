@@ -19,3 +19,7 @@ Hyper-V is a type 1 hypervisor that is also called a bare metal hypervisor, and 
 In the screenshot below, you can see two virtual machines, with a working network between them, a history of snapshots and a lot of imported and exported data.
 
 ![](content/VBtask.png)
+
+Here you can see host and guest shared folder settings, network type settings, and USB port access settings.
+
+![](content/VBtask2.png)
