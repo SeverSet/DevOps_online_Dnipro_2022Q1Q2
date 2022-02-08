@@ -23,3 +23,11 @@ In the screenshot below, you can see two virtual machines, with a working networ
 Here you can see host and guest shared folder settings, network type settings, and USB port access settings.
 
 ![](content/VBtask2.png)
+
+| Mode          | VM -> Host | VM <- Host   | VM1 <--> VM2 | VM -> Net/Lan | VM <- Net/Lan |
+|:-------------:|:----------:|:------------:|:------------:|:-------------:|:-------------:|
+| Host only     | +          | +            | +            | -             | -             |
+| Internal      | -          | -            | +            | -             | -             |
+| Bridget       | +          | +            | +            | +             | +             |
+| NAT           | +          | Port forward | -            | +             | Port forward  |
+| NATService    | +          | Port forward | +            | +             | Port Forward  |
