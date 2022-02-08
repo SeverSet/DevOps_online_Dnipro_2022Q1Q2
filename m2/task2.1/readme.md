@@ -17,4 +17,5 @@ Hyper-V is a type 1 hypervisor that is also called a bare metal hypervisor, and 
 # Part 2 work wit Virtualbox
 
 In the screenshot below, you can see two virtual machines, with a working network between them, a history of snapshots and a lot of imported and exported data.
-![](/content/VBtask.png)
+
+![](m2/task2.1/content/VBtask.png)
