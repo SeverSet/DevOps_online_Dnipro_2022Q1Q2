@@ -87,5 +87,5 @@ ___
  ### The file type can be determined using the file command. On linux, there are regular files, directories, symbolic links, block devices, character devices, sockets, pipes.
  ___
  ### List the first 5 directory files that were recently accessed in the /etcdirectory:
- ![](content/Task%204.1.20.png)
+ ![](content/Task%204.1.21.png)
 
