@@ -4,6 +4,14 @@
 
 ### The /etc/passwd file contains a list of users known to the system. During the user registration process, the system accesses this file looking for the user's ID and home directory.
 
+        cat /etc/passwd    
+        root:x:0:0:root:/root:/usr/bin/zsh
+        daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin - pseudo-user
+        bin:x:2:2:bin:/bin:/usr/sbin/nologin - pseudo-users
+        sys:x:3:3:sys:/dev:/usr/sbin/nologin - pseudo-users
+        sync:x:4:65534:sync:/bin:/bin/sync
+
+
 ### Each line of the file describes one user and 7 fields separated by colons:
   - Registration names must be unique and contain no more than 32 characters.
 They can contain any characters except colon and newline. They must not start with a number.
@@ -58,7 +66,7 @@ They can contain any characters except colon and newline. They must not start wi
   ## 6) To rename a user, use the usermod command with the following syntax:
       usermod -l new_user opd_user
 ___
-## 7) skell_dir - The directory of files to use for the newly created custom directory.
+## 7)The /etc/skel/ directory (skel is derived from "skeleton") is used to start the home directory when a user is first created.
 ___
 ## 8) To completely delete a user and all his data from the system, you need to execute the following command:
     deluser -frZ user_name 
@@ -70,6 +78,7 @@ ___
 ___
 ## 10) To remove a password from a user, use the following command:
     sudo passwd -d username
+### The possibility of a blank password is done by editing the /etc/shadow file
 ___
 ## 11) To view extended information about a directory, use the command ls -l
 ![](content/Task_4.2.2.png)
@@ -89,6 +98,8 @@ ___
 - SUID - if this bit is set, then when the program is executed, the id of the user from which it was launched is replaced by the id of the file owner. In effect, this allows normal users to run programs as root;
 - SGID - This flag works in a similar way, only the difference is that the user is considered a member of the group the file is associated with, not the groups to which he actually belongs. If the SGID flag is set on a directory, all files created in it will be associated with the group of the directory, not the user. This behavior is used to organize public folders;
 - Sticky-bit - This bit is also used to create shared folders. If set, users can only create, read, and execute files, but cannot delete files owned by other users.
+___
+## 13) 
 ___
 ## 14) Changing the owner of a file is done with the chown command, and changing file permissions with the chmod command.
 ### Change owner example:
@@ -111,7 +122,10 @@ ___
 ___
 ### The umask command defines the bitmask that will be applied to new files.
 ___
-## 16)
+## 16) Sticky bit is an additional attribute of files or directories in operating systems of the UNIX family.
+### Today, the sticky bit is mainly used on directories to protect files in them. From such a directory, the user can delete only those files that he owns. An example is the /tmp directory, in which the entry is open to all users, but deletion of other people's files is not desirable. The attribute is set with the chmod utility.
+### Sticky bit example:
+![](content/Task_4.2.3.png)
 ___
-## 17)
+## 17) A mandatory attribute of an executable file is the attribute x - executable
 ___
