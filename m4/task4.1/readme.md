@@ -69,7 +69,7 @@ ___
  ![](content/Task%204.1.14.png)
  ___
  ### Using the find command, find all files in the /etc directory containing thehost character sequence: 
- ![](content/Task%204.1.15.png)
+ ![](content/Task%204.1.ad.png)
  __
  ### List all objects in /etc that contain the ss character sequence. How can Iduplicate a similar command using a bunch of grep?
  ![](content/Task%204.1.16.png)
