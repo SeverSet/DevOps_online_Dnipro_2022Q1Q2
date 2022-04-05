@@ -113,17 +113,46 @@ ___
 ### The bg command is designed to resume the execution of a stopped task in the background in command shells.
 
 ### The purpose of Nohup is to intercept and prevent SIGHUP signals from reaching the command.
+![](content/Task4.3.9.png)
 ___
 
 ## Part №2
 ___
 
 ## 1)
+### One of the most common OpenSSH commands is a command that connects to a remote server. Command syntax:
+    ssh user@[server_ip]
+![](content/Task4.3.10.png)
+### Another common is the key generation command:
+    ssh-keygen -t [encryption algorithm]
+![](content/Task4.3.11.png)
+### Generated keys in standard directories:
+![](content/Task4.3.12.png)
 ___
 ## 2)
+### SSH connection security options:
+> Use SSH Protocol Version 2
+
+> Avoid Port 22
+
+> Reject Connection Requests With No Passwords
+
+> Disable Root Log Ins
+### All this settings you can change by configuration sshd_config file
 ___
 ## 3)
+### Encryption options:
+- DSA
+- RSA
+- ECDSA
+- Ed25519
+### RSA example:
+![](content/Task4.3.13.png)
+### Ed25519 example:
+![](content/Task4.3.11.png)
+### DSA example:
+![](content/Task4.3.14.png)
 ___
 ## 4)
+![](content/Task4.3.15.png)
 ___
-## 5)
