@@ -36,4 +36,8 @@ ___
 ![](content/Task5.7.1.png)
 ___
 ## 8)
+### Iptables configuration for NAT:
+![](content/Task5.8.png)
+### Checking connection from Client 1 and Client 2:
+![](content/Task5.8.1.png)
 ___
