@@ -36,3 +36,25 @@ ___
 ### Give a new privileges to a new user and test:
 ![](content/Task7.10.png)
 ![](content/Task7.11.png)
+___
+### Making backup of database:
+![](content/Task7.12.png)
+___
+### Changing tables in database:
+![](content/Task7.13.png)
+___
+### Restoring databases:
+![](content/Task7.14.png)
+___
+### Creating an RDS database and transfering local db to AWS:
+![](content/Task7.16.png)
+![](content/Task7.15.png)
+___
+### Connecting to RDS using next command:
+    mysql -h [endpoint] -P 3306 -u [username] -p
+___
+### Executing SELECT operator similar step 6:
+![](content/Task7.17.png)
+___
+### Creating the dump of your database to local machine:
+![](content/Task7.18.jpg)
