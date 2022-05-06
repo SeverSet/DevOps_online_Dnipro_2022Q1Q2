@@ -58,3 +58,15 @@ ___
 ___
 ### Creating the dump of your database to local machine:
 ![](content/Task7.18.jpg)
+___
+### Creating MongoDB database:
+![](content/Task7.19.png)
+___
+### Creating and checking collection for MongoDB:
+![](content/Task7.20.png)
+___
+### Creating and insert some documents to collection:
+![](content/Task7.21.png)
+___
+### find() command result:
+![](content/Task7.22.png)
