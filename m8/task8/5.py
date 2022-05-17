@@ -1,7 +1,7 @@
 import emojis
 
 def main():
-    userdata = input("Input a Sentence: ")
+    userdata = input("How is your mood? ")
     print(userdata)
     userdata = convert(userdata)
     print(userdata)
