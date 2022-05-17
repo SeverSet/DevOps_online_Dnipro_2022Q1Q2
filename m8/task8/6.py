@@ -1,6 +1,7 @@
 import platform
 import os
 import shutil
+import psutil
 
 print("="*40, "System Information", "="*40)
 
@@ -20,3 +21,8 @@ total, used, free = shutil.disk_usage("/")
 print("Total size : %d GiB" % (total // (2**30)))
 print("Used: %d GiB" % (used // (2**30)))
 print("Free: %d GiB" % (free // (2**30)))
+
+print("="*40, "RAM Information", "="*40)
+
+print("The percentage of used RAM: " + str(psutil.virtual_memory().percent))
+print("Percentage of available RAM: " + str(psutil.virtual_memory().available * 100 / psutil.virtual_memory().total))
