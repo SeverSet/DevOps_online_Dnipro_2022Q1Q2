@@ -31,3 +31,24 @@ ___
 ### The Jenkins job result:
 ![](content/Task9.4.png)
 ___
+### Simple job example in Jenkins with deploy:
+![](content/Task9.5.png)
+![](content/Task9.6.png)
+![](content/Task9.7.png)
+___
+### Simple job example in Jenkins with deploy using plugin:
+![](content/Task9.8.png)
+![](content/Task9.9.png)
+![](content/Task9.10.png)
+![](content/Task9.11.png)
+___
+### Simple CI/CD pipeline example:
+![](content/Task9.12.png)
+![](content/Task9.13.png)
+![](content/Task9.14.png)
+![](content/Task9.15.png)
+![](content/Task9.16.png)
+![](content/Task9.16.1.png)
+![](content/Task9.17.png)
+![](content/Task9.18.png)
+![](content/Task9.19.png)
